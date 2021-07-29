@@ -8,7 +8,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+/* navbar section */
+.navbar-custom{
+    background-color: #264653;
+    color: #fff;
+}
+.navbar-light{
+    color: #fff;
+}
+.navbar-custom ul li a{
+    color: #fff;
+}
 /* hero section */
 .hero-img img{
   width: 552px;
@@ -16,6 +26,7 @@ body{
 }
 .hero-section {
   background-color: #264653;
+  width: 100%;
 }
 .btn-primary{
     background-color: #E76F51;
@@ -55,6 +66,20 @@ body{
 .client-title{
     color: blue;
 }
+.card-text{
+    color: gray;
+}
+/* newsletter section  */
+.newsletter{
+    padding: 80px 50px;
+}
+.newsletter p{
+    color: #000;
+}
+.subscribe-btn{
+    background-color:#E76F51 ;
+    color: #fff;
+}
 
 /* footer section  */
 footer{
@@ -70,13 +95,11 @@ footer a, small, p{
 
 
 
+
 /* for mobile devices */
-@media (max-width: 692px){
-    .featured-bike-img{
-        justify-content: center;
+@media only screen and (max-width: 600px) {
+    .card {
+      margin: 0 auto;
     }
-    .hero-img img{
-        width: auto;
-        height: auto;
-      }
-}
+    
+  }
