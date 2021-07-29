@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 /* hero section */
-.hero-img {
+.hero-img img{
   width: 552px;
   height: 447px;
 }
@@ -29,4 +34,49 @@
 }
 .primary-color{
     color: #E76F51;
+}
+/*------------------- feature section --------------------------- */
+.section-title{
+    font-size: 48px;
+}
+
+.featured-bike-img img{
+   width: 75%;
+   
+}
+.gray-img{
+    filter: grayscale(100%);
+}
+/* card section  */
+.card img{
+    width: 149px;
+    height: 149px;
+}
+.client-title{
+    color: blue;
+}
+
+/* footer section  */
+footer{
+    background-color: #0B0D17;
+}
+footer a, small, p{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+
+
+
+
+/* for mobile devices */
+@media (max-width: 692px){
+    .featured-bike-img{
+        justify-content: center;
+    }
+    .hero-img img{
+        width: auto;
+        height: auto;
+      }
 }
