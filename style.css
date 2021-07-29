@@ -1,5 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* hero section */
-.hero-img{
-    width: 552px;
-height: 447px;
+.hero-img {
+  width: 552px;
+  height: 447px;
+}
+.hero-section {
+  background-color: #264653;
+}
+.btn-primary{
+    background-color: #E76F51;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.btn-primary:hover{
+    background-color: #E76F51;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.btn-primary:focus{
+    background-color: #E76F51;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.primary-color{
+    color: #E76F51;
 }
