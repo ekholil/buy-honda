@@ -51,8 +51,8 @@ body{
     font-size: 48px;
 }
 
-.featured-bike-img img{
-   width: 75%;
+.feature-bikes img{
+   width: 28%;
    
 }
 .gray-img{
@@ -69,6 +69,12 @@ body{
 .card-text{
     color: gray;
 }
+
+.wrapper img{
+    width: 23%;
+}
+
+
 /* newsletter section  */
 .newsletter{
     padding: 80px 50px;
@@ -97,9 +103,33 @@ footer a, small, p{
 
 
 /* for mobile devices */
+
 @media only screen and (max-width: 600px) {
+    .feature-bikes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .feature-bikes img{
+        width: 80%;
+        
+     }
     .card {
       margin: 0 auto;
     }
-    
+    .bike{
+        padding: 0;
+    }
+    .wrapper{
+        flex-direction: column;
+       
+    }
+    .wrapper img{
+        width: 100%;
+    }
   }
+
+
+
+ 
